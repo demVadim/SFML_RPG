@@ -13,7 +13,8 @@ class Game
 {
 private:
 	//variables
-	sf::RenderWindow window;
+	sf::RenderWindow *window;
+	sf::Event sfEvent;
 
 	//Initialization
 	void initWindow();
