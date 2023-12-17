@@ -10,6 +10,7 @@ void Game::initWindow()
 //Constructor/Destructor 
 Game::Game()
 {
+	this->initWindow();
 }
 
 Game::~Game()
@@ -31,6 +32,7 @@ void Game::updateSFMLEvents()
 
 void Game::update()
 {
+	this->updateSFMLEvents();
 }
 
 void Game::render()
